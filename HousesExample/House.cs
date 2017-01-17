@@ -20,5 +20,10 @@ namespace HousesExample
         {
             this.color = color;//.this goes back to the class to look for the variable and assigns it there.
         }
+
+        public string CurrentColor()
+        {
+            return color;
+        }
     }
 }
